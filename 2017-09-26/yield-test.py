@@ -9,3 +9,4 @@ it = gen1to3();
 #for構文で繰り返し表示
 for i in it:
     print(i)
+    
