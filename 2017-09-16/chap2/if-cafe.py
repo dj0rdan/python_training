@@ -1,7 +1,7 @@
 #if cafe
 #kion = int(input("何度やねん"))
 
-kion =26
+kion = float(input("気温何度や"))
 if kion >=25:
     print("氷水出せ")
 else:

@@ -12,10 +12,12 @@ jikan = int(user)
 kyuryou = jikyu * jikan
 
 #結果
-fmt = """
-時給{0}円で、{1}時間働いたので...
+fmt = '''
+時給{0}円で、
+{1}時間働いたので...
+
 給料は、{2}円です。
-"""
+'''
 
 desc = fmt.format(jikyu, jikan, kyuryou)
 print(desc)
