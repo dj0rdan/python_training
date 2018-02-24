@@ -6,8 +6,8 @@ hon = 200
 girl = 149
 gay = 151
 
-choco = giri+hon
+choco = giri + hon
 
 gaymotepercent = gay/choco
 
-gaymotepercent
+print(gaymotepercent)
