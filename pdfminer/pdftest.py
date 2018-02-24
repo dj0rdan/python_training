@@ -11,7 +11,7 @@ laparams = LAParams()
 laparams.detect_vertical = True
 device = TextConverter(rsrcmgr, rettxt, codec='utf-8', laparams=laparams)
 # 処理するPDFを開く
-fp = open('type.pdf', 'rb')
+fp = open('メリットプラン条項.pdf', 'rb')
 interpreter = PDFPageInterpreter(rsrcmgr, device)
 
 # maxpages：ページ指定（0は全ページ）
